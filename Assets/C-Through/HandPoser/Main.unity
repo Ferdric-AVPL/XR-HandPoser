@@ -1411,7 +1411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4385830e256436f488cf8f306b2da480, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pose: {fileID: 0}
+  pose: {fileID: 11400000, guid: 5b69f95b492045d41acc0412743aca31, type: 2}
 --- !u!1001 &7600591171315808314
 PrefabInstance:
   m_ObjectHideFlags: 0

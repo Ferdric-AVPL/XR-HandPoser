@@ -1202,6 +1202,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubeInteractable
       objectReference: {fileID: 0}
+    - target: {fileID: 2909574762651156144, guid: 8222b113b26f4d141a68e4db77845cf4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2909574762651156156, guid: 8222b113b26f4d141a68e4db77845cf4,
         type: 3}
       propertyPath: m_LocalPosition.x
