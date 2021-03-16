@@ -1,21 +1,24 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(PoseContainer))]
-public class PoseContainerEditor : Editor
+namespace CThrough.XR.Hands.Poser
 {
-    private PoseContainer poseContainer = null;
-
-    private void OnEnable()
+    [CustomEditor(typeof(PoseContainer))]
+    public class PoseContainerEditor : Editor
     {
-        poseContainer = (PoseContainer)target;
-    }
+        private PoseContainer poseContainer = null;
 
-    public override void OnInspectorGUI()
-    {
-        base.OnInspectorGUI();
+        private void OnEnable()
+        {
+            poseContainer = (PoseContainer)target;
+        }
 
-        if (GUILayout.Button("Open Pose Editor"))
-            PoseWindow.Open(poseContainer.pose);
+        public override void OnInspectorGUI()
+        {
+            base.OnInspectorGUI();
+
+            if (GUILayout.Button("Open Pose Editor"))
+                PoseWindow.Open(poseContainer.pose);
+        }
     }
 }

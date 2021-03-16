@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 
-public class PoseContainer : MonoBehaviour
+namespace CThrough.XR.Hands.Poser
 {
-    // The pose is when this object is grabbed
-    public Pose pose = null;
+    public class PoseContainer : MonoBehaviour
+    {
+        // The pose is when this object is grabbed
+        public Pose pose = null;
+    }
 }

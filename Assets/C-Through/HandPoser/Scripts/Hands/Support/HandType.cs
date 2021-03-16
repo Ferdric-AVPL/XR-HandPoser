@@ -1,6 +1,9 @@
-﻿public enum HandType
+﻿namespace CThrough.XR.Hands.Poser
 {
-    None,
-    Left,
-    Right,
+    public enum HandType
+    {
+        None,
+        Left,
+        Right,
+    }
 }
