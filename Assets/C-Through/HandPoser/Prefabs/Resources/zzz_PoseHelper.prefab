@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5741019784966119304}
   - component: {fileID: 5722719890929340157}
   m_Layer: 0
-  m_Name: PoseHelper
+  m_Name: zzz_PoseHelper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,9 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hideHands: 0
-  leftHandPrefab: {fileID: 1410642508014171175, guid: 5ae14818f4738aa49a2607ddd8dfd1d2,
+  leftHandPrefab: {fileID: 718238656467269464, guid: a1ed84218665e6847b911a2fa6f0e139,
     type: 3}
-  rightHandPrefab: {fileID: 3134933309429596729, guid: 9f0cecf8872802f4a8d83ed7b70da3c0,
+  rightHandPrefab: {fileID: 5370890913437835961, guid: 634d0445963f64147b9a8480af0da37f,
     type: 3}
 --- !u!114 &5722719890929340157
 MonoBehaviour:
